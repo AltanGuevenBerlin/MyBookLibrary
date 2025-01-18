@@ -1,0 +1,17 @@
+#Allgemeine gitignore
+.idea
+
+#Backend gitignore
+backend/target/
+backend/!.mvn/wrapper/maven-wrapper.jar
+backend/!**/src/main/**/target/
+backend/!**/src/test/**/target/
+backend/mvnw
+backend/mvnw.cmd
+backend/mvn
+
+#Frontend gitignore
+frontend/node_modules
+frontend/dist
+
+#HELP.md Ordner wird direkt gelöscht
